@@ -26,7 +26,7 @@ tweet.action(service: 'youtube', type: 'random', target: channel_id)
 
 # if you wanna add extra content to your tweet as mentions or whatever you want
 # add an 'extra' argument as array
-tweet.action(service: 'youtube', type: 'random', target: channel_id, extra: ['@5rabbitHQ', 'Check this out!'])
+tweet.action(service: 'youtube', type: 'random', target: channel_id, extras: ['@5rabbitsHQ', 'Check this out!'])
 
 # Medium contentn
 # Define a medium user
@@ -49,4 +49,4 @@ tweet.action(service: 'medium', type: 'random', target: blog)
 
 # if you wanna add extra content to your tweet as mentions or whatever you want
 # as before, add an 'extra' argument as array
-tweet.action(service: 'medium', type: 'random', target: blog, extra: ['@5rabbitHQ', 'Check this out!'])
+tweet.action(service: 'medium', type: 'random', target: blog, extras: ['@5rabbitsHQ', 'Check this out!'])
