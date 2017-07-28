@@ -5,4 +5,3 @@ gemspec
 
 gem 'mechanize'
 gem 'twitter'
-gem 'yt', '~> 0.28.0'

@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'byebug'
 
   spec.add_dependency 'mechanize'
-  spec.add_dependency 'yt'
+  spec.add_dependency 'twitter'
 end
